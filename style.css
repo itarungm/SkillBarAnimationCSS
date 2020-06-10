@@ -1,0 +1,225 @@
+body{
+  background: url(hero.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.test{
+  color: white;
+  font-size: 25px;
+}
+.skills{
+  color: white;
+  font-size: 50px;
+  font-family: arial;
+  position: absolute;
+  top: -8%;
+  left: 50%;
+  transform: translate(-50%,-5%);
+  animation-name: Skills;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes Skills{
+  0%{color: red;text-shadow: 0px 0px 15px white;}
+   25%{color: green;text-shadow: 0px 0px 15px white;}
+    50%{color: yellow;text-shadow: 0px 0px 15px white;}
+      100%{color: crimson;text-shadow: 0px 0px 15px white;}
+}
+
+.box1{
+  border: 3px solid white;
+  width: 500px;
+  color: white;
+position: absolute;
+top: 20%;
+left: 21%;
+
+background:#f44336;
+  height: 30px;
+  animation-name: box1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.box2{
+  border: 3px solid white;
+  width: 500px;
+  color: black;
+position: absolute;
+top: 35%;
+left: 21%;
+background:#2196f3;
+  height: 30px;
+  animation-name: box2;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+.box3{
+  border: 3px solid white;
+  width: 500px;
+
+position: absolute;
+top: 50%;
+left: 21%;
+background:#ffca28;
+  height: 30px;
+  animation-name: box3;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+.box4{
+  border: 3px solid white;
+  width: 500px;
+  color: black;
+position: absolute;
+top: 65%;
+left: 21%;
+background:#303f9f;
+  height: 30px;
+  animation-name: box4;
+  animation-duration: 3s;
+  animation-iteration-count: 7;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.box5{
+  border: 3px solid white;
+  width: 500px;
+  color: black;
+position: absolute;
+top: 80%;
+left: 21%;
+background:#27ae60;
+  height: 30px;
+  animation-name: box5;
+  animation-duration: 3s;
+  animation-iteration-count: 9;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.box1 p{
+  color: black;
+  letter-spacing: 0.5em;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -1px;
+}
+.box2 p{
+  position: absolute;
+font-size: 30px;
+color: black;
+letter-spacing: 0.5em;
+font-weight: bold;
+margin-top: -3px;
+}
+
+.box3 p{
+  color: black;
+  letter-spacing: 0.5em;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -1px;
+}
+.box4 p{
+  position: absolute;
+font-size: 30px;
+color: black;
+letter-spacing: 0.5em;
+font-weight: bold;
+margin-top: -3px;
+}
+.box5 P{
+  position: absolute;
+  overflow: hidden;
+font-size: 30px;
+word-break: break-all;
+color: black;
+letter-spacing: 0.5em;
+font-weight: bold;
+margin-top: -3px;
+}
+
+@keyframes box1 {
+  0%{width: 500px;
+  }
+
+  100%{
+    width: 1000px;
+    box-shadow: 10px 10px 0px orange;
+
+  }
+}
+@keyframes box2 {
+  0%{width: 400px;
+  }
+  100%{
+    width: 950px;
+    box-shadow: 10px 10px 0px tomato;
+
+  }
+}
+@keyframes box3 {
+  0%{width: 200px;
+  }
+  100%{
+    width: 800px;
+    box-shadow: 10px 10px 0px #00FF7F;
+
+  }
+}
+@keyframes box4 {
+  0%{width: 100px;
+    overflow: hidden;
+  }
+  100%{
+    width: 750px;
+    box-shadow: 10px 10px 0px #40E0D0;
+  }
+}
+@keyframes box5 {
+  0%{width: 50px;
+    overflow: hidden;
+  }
+  100%{
+    width: 700px;
+    box-shadow: 10px 10px 0px #800080;
+
+  }
+}
+
+.strip{
+  font-family: Trade Winds;
+
+  width: 400px;
+  font-size: 15px;
+  margin-top: 35px;
+  color: black;
+  padding-right: 50px;
+  margin-left: -100px;
+  text-align: center;
+  background-color: cyan;
+  transform: rotate(-45deg);
+}
+.strip:hover{
+  background-color: cyan;
+  box-shadow: 0 0 10px cyan,
+              0 0 15px cyan,
+              0 0 20px cyan; 
+  transition: 0.5s;   
+}
+a{
+  color: red;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
